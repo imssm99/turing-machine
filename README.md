@@ -10,7 +10,7 @@ $ cargo run --example [EXAMPLE_NAME]
 
 ### anbn
 
-$L={a^nb^n: n \geq 1}$
+$L=\lbrace a^nb^n: n \geq 1 \rbrace$
 
 ```
 $ cargo run --example anbn
