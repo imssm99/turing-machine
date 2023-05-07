@@ -10,4 +10,14 @@ $ cargo run --example [EXAMPLE_NAME]
 
 ### anbn
 
-$ L={a^nb^n: n \geq 1} $
+$L={a^nb^n: n \geq 1}$
+
+```
+$ cargo run --example anbn
+aabb
+Accepted
+
+$ cargo run --example anbn
+aab
+Not Accepted
+```
